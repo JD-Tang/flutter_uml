@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T11:56:30.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fNq1IZ4tCglRGsp1eCSD" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-28T12:01:31.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DsVboTwusSAKCpTKtJMI" version="17.4.5" type="github" pages="2">
   <diagram id="XpaTOfmrbU4KXJZMPMMv" name="第 1 页">
     <mxGraphModel dx="1865" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,29 +353,29 @@
         <mxCell id="tMlU2hE81jz5rKnYjnZV-32" value="- initialize: Future&lt;void&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-29">
           <mxGeometry y="58" width="160" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-33" value="DomBinding" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="505" width="160" height="118" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-33" value="CommandBinding" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="505" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-34" value="- instance: DomBinding" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-33">
-          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-34" value="- instance: CommandBinding&#xa;- commandRegisrars: List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-33">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="tMlU2hE81jz5rKnYjnZV-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-33">
-          <mxGeometry y="50" width="160" height="8" as="geometry" />
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-36" value="- initialize: Future&lt;void&gt;&#xa;- _constructRouteInfo: void&#xa;- _parseRoute: Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-33">
-          <mxGeometry y="58" width="160" height="60" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-36" value="- initialize: Future&lt;void&gt;&#xa;- _registerCommands: void&#xa;- insertCommands: void&#xa;- execJSCommand: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-33">
+          <mxGeometry y="68" width="160" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-37" value="DomBinding" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="300.5" width="160" height="118" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-37" value="JSRuntimeBinding" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="284.5" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-38" value="- instance: DomBinding" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-37">
-          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-38" value="- instance: JSRuntimeBinding&#xa;- threshBundle: ThreshBundle&#xa;- contextId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-37">
+          <mxGeometry y="26" width="170" height="54" as="geometry" />
         </mxCell>
         <mxCell id="tMlU2hE81jz5rKnYjnZV-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-37">
-          <mxGeometry y="50" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="170" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tMlU2hE81jz5rKnYjnZV-40" value="- initialize: Future&lt;void&gt;&#xa;- _constructRouteInfo: void&#xa;- _parseRoute: Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-37">
-          <mxGeometry y="58" width="160" height="60" as="geometry" />
+        <mxCell id="tMlU2hE81jz5rKnYjnZV-40" value="- initialize: Future&lt;void&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tMlU2hE81jz5rKnYjnZV-37">
+          <mxGeometry y="88" width="170" height="32" as="geometry" />
         </mxCell>
         <mxCell id="tMlU2hE81jz5rKnYjnZV-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="tMlU2hE81jz5rKnYjnZV-4" target="tMlU2hE81jz5rKnYjnZV-38">
           <mxGeometry relative="1" as="geometry" />
